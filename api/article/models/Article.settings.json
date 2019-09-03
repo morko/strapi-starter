@@ -1,0 +1,37 @@
+{
+  "connection": "default",
+  "collectionName": "article",
+  "info": {
+    "name": "article",
+    "description": "Articles are pieces of writings about some topic. They contain a short teaser an image about the topic."
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "content": {
+      "required": true,
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "user": {
+      "model": "user",
+      "via": "articles",
+      "plugin": "users-permissions"
+    },
+    "teaser": {
+      "type": "text"
+    }
+  }
+}
