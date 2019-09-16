@@ -1,8 +1,8 @@
 {
-  "name": "strapi-demo",
+  "name": "strapi-starter",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "0.2.0",
+  "description": "A Strapi starter application",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.0",
-    "eslint": "^6.0.0",
+    "eslint": "^6.4.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-react": "^7.14.0"
@@ -20,19 +20,19 @@
   "dependencies": {
     "lodash": "^4.17.5",
     "simple-webhooks": "^0.1.2",
-    "strapi": "3.0.0-beta.15",
-    "strapi-admin": "3.0.0-beta.15",
-    "strapi-hook-mongoose": "3.0.0-beta.15",
-    "strapi-plugin-content-manager": "3.0.0-beta.15",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.15",
-    "strapi-plugin-email": "3.0.0-beta.15",
-    "strapi-plugin-settings-manager": "3.0.0-beta.15",
-    "strapi-plugin-upload": "3.0.0-beta.15",
-    "strapi-plugin-users-permissions": "3.0.0-beta.15",
-    "strapi-utils": "3.0.0-beta.15"
+    "strapi": "3.0.0-beta.16.3",
+    "strapi-admin": "3.0.0-beta.16.3",
+    "strapi-utils": "3.0.0-beta.16.3",
+    "strapi-plugin-settings-manager": "3.0.0-beta.16.3",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.16.3",
+    "strapi-plugin-content-manager": "3.0.0-beta.16.3",
+    "strapi-plugin-users-permissions": "3.0.0-beta.16.3",
+    "strapi-plugin-email": "3.0.0-beta.16.3",
+    "strapi-plugin-upload": "3.0.0-beta.16.3",
+    "strapi-hook-mongoose": "3.0.0-beta.16.3"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Oskari Pöntinen"
   },
   "strapi": {
     "uuid": "b0a3f099-f450-41e3-b456-a602166dd98e"

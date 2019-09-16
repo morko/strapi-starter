@@ -3,7 +3,7 @@
   "collectionName": "article",
   "info": {
     "name": "article",
-    "description": "Articles are pieces of writings about some topic. They contain a short teaser an image about the topic."
+    "description": "Articles are pieces of writings about some topic."
   },
   "options": {
     "timestamps": [
@@ -18,7 +18,7 @@
     },
     "content": {
       "required": true,
-      "type": "text"
+      "type": "richtext"
     },
     "image": {
       "model": "file",
