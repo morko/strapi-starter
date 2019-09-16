@@ -7,29 +7,4 @@ services:
       - 27017
     volumes:
       - ./mongo-data:/data/db
-    networks:
-      - strapi
     restart: always
-
-  strapi:
-    build: ./
-    ports:
-      - 1337:1337
-    volumes:
-      - .:/app
-    networks:
-      - strapi
-    depends_on:
-      - mongodb
-    environment:
-      - DATABASE_NAME=strapi
-      - DATABASE_USERNAME=
-      - DATABASE_PASSWORD=
-      - DATABASE_CLIENT=mongo
-      - DATABASE_HOST=mongodb
-      - DATABASE_PORT=27017
-      - DATABASE_SSL=false
-    restart: always
-
-networks:
-  strapi:
